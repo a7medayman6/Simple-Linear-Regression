@@ -35,10 +35,4 @@ print(regr.score(x_train, y_train))
 y_pred = regr.predict(x_test)
 plt.scatter(x_test, y_test, color='b')
 plt.plot(x_test, y_pred, color='k')
-val = np.array(1529).reshape(-1, 1)
-print(regr.predict(val))
 plt.show()
-
-
-
-#,Turkey,1529,37,0,3/23/2020
